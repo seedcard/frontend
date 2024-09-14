@@ -1,12 +1,12 @@
 {
-  "homepage": "https://seedcard.github.io/frontend/",
-  "name": "seedcardwebsite",
+  "homepage": "https://seedcard.github.io/frontend",
+  "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "build-css": "tailwindcss build -i ./src/index.css -o ./tailwind.css --watch",
